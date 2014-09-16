@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		5206F8B719C85E1000D974B7 /* CodeCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5206F8B619C85E1000D974B7 /* CodeCamp.swift */; };
+		5206F96619C881DA00D974B7 /* Bai1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5206F96519C881DA00D974B7 /* Bai1.swift */; };
+		5206F96819C8824B00D974B7 /* Bai2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5206F96719C8824B00D974B7 /* Bai2.swift */; };
+		5206F96A19C8827300D974B7 /* Bai4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5206F96919C8827300D974B7 /* Bai4.swift */; };
+		5206F96C19C8829A00D974B7 /* Bai3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5206F96B19C8829A00D974B7 /* Bai3.swift */; };
 		E206527E19B9DAF20017D0A3 /* PropertyDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E206527D19B9DAF20017D0A3 /* PropertyDemo.swift */; };
 		E206528019B9E7D40017D0A3 /* ProtocolDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E206527F19B9E7D40017D0A3 /* ProtocolDemo.swift */; };
 		E26B677019C15770004CCEA9 /* BootLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26B676C19C15770004CCEA9 /* BootLogic.swift */; };
@@ -85,6 +89,10 @@
 /* Begin PBXFileReference section */
 		5206F8B619C85E1000D974B7 /* CodeCamp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeCamp.swift; sourceTree = "<group>"; };
 		5206F95519C87A4F00D974B7 /* Complex.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Complex.xcodeproj; path = ../../../../Documents/Complex/Complex.xcodeproj; sourceTree = "<group>"; };
+		5206F96519C881DA00D974B7 /* Bai1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bai1.swift; sourceTree = "<group>"; };
+		5206F96719C8824B00D974B7 /* Bai2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bai2.swift; sourceTree = "<group>"; };
+		5206F96919C8827300D974B7 /* Bai4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bai4.swift; sourceTree = "<group>"; };
+		5206F96B19C8829A00D974B7 /* Bai3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bai3.swift; sourceTree = "<group>"; };
 		E206527D19B9DAF20017D0A3 /* PropertyDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyDemo.swift; sourceTree = "<group>"; };
 		E206527F19B9E7D40017D0A3 /* ProtocolDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolDemo.swift; sourceTree = "<group>"; };
 		E26B676C19C15770004CCEA9 /* BootLogic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BootLogic.swift; sourceTree = "<group>"; };
@@ -153,13 +161,25 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		5206F96019C881C500D974B7 /* CodeCamp */ = {
+			isa = PBXGroup;
+			children = (
+				5206F8B619C85E1000D974B7 /* CodeCamp.swift */,
+				5206F96519C881DA00D974B7 /* Bai1.swift */,
+				5206F96719C8824B00D974B7 /* Bai2.swift */,
+				5206F96919C8827300D974B7 /* Bai4.swift */,
+				5206F96B19C8829A00D974B7 /* Bai3.swift */,
+			);
+			name = CodeCamp;
+			sourceTree = "<group>";
+		};
 		E26B676B19C154D2004CCEA9 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				E2CE122B19A762F3008E72E8 /* AppDelegate.swift */,
 				E26B676C19C15770004CCEA9 /* BootLogic.swift */,
 				E26B676D19C15770004CCEA9 /* ConsoleScreen.swift */,
 				E26B676E19C15770004CCEA9 /* MainScreen.swift */,
-				5206F8B619C85E1000D974B7 /* CodeCamp.swift */,
 			);
 			name = Core;
 			sourceTree = "<group>";
@@ -255,7 +275,7 @@
 		E2CE122819A762F3008E72E8 /* DemoClass */ = {
 			isa = PBXGroup;
 			children = (
-				E2CE122B19A762F3008E72E8 /* AppDelegate.swift */,
+				5206F96019C881C500D974B7 /* CodeCamp */,
 				E26B676B19C154D2004CCEA9 /* Core */,
 				E2CE124819A763F4008E72E8 /* Object Oriented */,
 				E2AA969219C52EEE00968C46 /* Function */,
@@ -480,6 +500,8 @@
 				E206527E19B9DAF20017D0A3 /* PropertyDemo.swift in Sources */,
 				E2CE125819A78369008E72E8 /* DemoPolymorphism.swift in Sources */,
 				E2FF3F5719C19EC00089A709 /* DemoDictionary.swift in Sources */,
+				5206F96819C8824B00D974B7 /* Bai2.swift in Sources */,
+				5206F96C19C8829A00D974B7 /* Bai3.swift in Sources */,
 				E2CE125A19A7843D008E72E8 /* Circle.swift in Sources */,
 				E26B677219C15770004CCEA9 /* MainScreen.swift in Sources */,
 				E2AA96CB19C554E000968C46 /* AccessLevel.swift in Sources */,
@@ -489,6 +511,7 @@
 				E2CE124A19A7646C008E72E8 /* DemoShape.swift in Sources */,
 				E27A59FA19C2D84B00F46EEA /* ManualSort.swift in Sources */,
 				E27A59F619C2AE3F00F46EEA /* ManipulateArray.swift in Sources */,
+				5206F96619C881DA00D974B7 /* Bai1.swift in Sources */,
 				E27A59F819C2B29400F46EEA /* Student.swift in Sources */,
 				E2AA969419C52F0400968C46 /* DemoFunction.swift in Sources */,
 				E29A182819B0788000FD78A7 /* OptionalUnwrap.swift in Sources */,
@@ -500,6 +523,7 @@
 				E2AA969619C5302A00968C46 /* DemoClosure.swift in Sources */,
 				E2FF3F5519C1674B0089A709 /* DemoArray.swift in Sources */,
 				E2CE125C19A788BB008E72E8 /* DemoComplex.swift in Sources */,
+				5206F96A19C8827300D974B7 /* Bai4.swift in Sources */,
 				E2CE125419A77BD8008E72E8 /* Triangle.swift in Sources */,
 				E2F305A519ACA98D00C78FB8 /* DemoStruct.swift in Sources */,
 				E2CE122C19A762F3008E72E8 /* AppDelegate.swift in Sources */,

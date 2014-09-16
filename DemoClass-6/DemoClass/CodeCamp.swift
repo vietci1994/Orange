@@ -7,53 +7,7 @@
 //
 
 import Foundation
-extension Array {
-    func average() -> Double {
-        let n = self.count
-        var total: Int = 0
-        for var i = 0; i < n;++i {
-            total += (self[i] as Int)
-        }
-        var average: Double = Double(total/n)
-        return average
-    }
-    
-    
-    mutating func tautologic(isOrderedBefore: (T, T) -> Bool) {
-       
-        
-        for var i = 0;i<self.count;i++ {
-            for var j = i+1;j<self.count;j++ {
-                if isOrderedBefore(self[i], self[j]) {
-                    
-                    self.removeAtIndex(i)
-                }
-            }
-            
-        }
-        
-    }
-    
-    mutating func arrangeEventVSOdd() {
-        for var i = 0;i<self.count;i++ {
-            for var j = self.count - 1; j >= i; j-- {
-                if(self[i] as Int % 2 == 1 && self[j] as Int % 2 == 0) {
-                    let temp = self[i]
-                    self[i] = self[j]
-                    self[j] = temp
-                }
-                }
-                }
-    }
 
-        
-    func soccer(number: Int) {
-        var resultArr = [MemSoccer]()
-        
-    }
-    
-    
-}
 class CodeCamp: ConsoleScreen {
     var intArr: [Int] = [21,22,32,424,12,32,21,32,22]
     override func viewDidLoad() {
@@ -104,11 +58,5 @@ class CodeCamp: ConsoleScreen {
 
 }
 
-class MemSoccer {
-    var name: String
-        init(name: String) {
-        self.name = name
-        
-    }
-}
+
 
