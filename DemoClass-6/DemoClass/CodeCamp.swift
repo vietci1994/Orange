@@ -10,11 +10,20 @@ import Foundation
 
 class CodeCamp: ConsoleScreen {
     var intArr: [Int] = [21,22,32,424,12,32,21,32,22]
+    
+    var intCompArr: [Complex] = [Complex(real: 1, imagine: 3),
+    Complex(real: 2, imagine: 4),
+    Complex(real: 1, imagine: 5),
+    Complex(real: 2, imagine: 3),
+    ]
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.testAverage()
         self.testArrangeEventVSOdd()
         self.testTautologic()
+        testComplexAverage()
         
     }
     func testAverage() {
@@ -24,6 +33,7 @@ class CodeCamp: ConsoleScreen {
     
     func testTautologic() {
         writeln("___________")
+        writeln("Tautologic: ")
         intArr.tautologic{$0 == $1}
         for i in intArr {
             writeln(" \(i)")
@@ -31,10 +41,17 @@ class CodeCamp: ConsoleScreen {
     }
     func testArrangeEventVSOdd() {
         writeln("_______")
+        writeln("ArrangeEventVsOdd: ")
         intArr.arrangeEventVSOdd()
         for i in intArr {
             writeln("\(i)")
         }
+    }
+    func testComplexAverage() {
+        writeln("__________")
+        writeln("Complex Average")
+        var resultCompAve = self.intCompArr.complexAverage()
+        writeln("The result: \(resultCompAve)")
     }
     func testSoccer() {
         var soccer1 = MemSoccer(name: "Thu mon 1")

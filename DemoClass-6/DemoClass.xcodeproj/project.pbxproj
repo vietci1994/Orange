@@ -12,6 +12,7 @@
 		5206F96819C8824B00D974B7 /* Bai2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5206F96719C8824B00D974B7 /* Bai2.swift */; };
 		5206F96A19C8827300D974B7 /* Bai4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5206F96919C8827300D974B7 /* Bai4.swift */; };
 		5206F96C19C8829A00D974B7 /* Bai3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5206F96B19C8829A00D974B7 /* Bai3.swift */; };
+		5206F97019C91E2200D974B7 /* Bai6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5206F96F19C91E2200D974B7 /* Bai6.swift */; };
 		E206527E19B9DAF20017D0A3 /* PropertyDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E206527D19B9DAF20017D0A3 /* PropertyDemo.swift */; };
 		E206528019B9E7D40017D0A3 /* ProtocolDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E206527F19B9E7D40017D0A3 /* ProtocolDemo.swift */; };
 		E26B677019C15770004CCEA9 /* BootLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26B676C19C15770004CCEA9 /* BootLogic.swift */; };
@@ -93,6 +94,7 @@
 		5206F96719C8824B00D974B7 /* Bai2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bai2.swift; sourceTree = "<group>"; };
 		5206F96919C8827300D974B7 /* Bai4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bai4.swift; sourceTree = "<group>"; };
 		5206F96B19C8829A00D974B7 /* Bai3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bai3.swift; sourceTree = "<group>"; };
+		5206F96F19C91E2200D974B7 /* Bai6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bai6.swift; sourceTree = "<group>"; };
 		E206527D19B9DAF20017D0A3 /* PropertyDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyDemo.swift; sourceTree = "<group>"; };
 		E206527F19B9E7D40017D0A3 /* ProtocolDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolDemo.swift; sourceTree = "<group>"; };
 		E26B676C19C15770004CCEA9 /* BootLogic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BootLogic.swift; sourceTree = "<group>"; };
@@ -169,6 +171,7 @@
 				5206F96719C8824B00D974B7 /* Bai2.swift */,
 				5206F96919C8827300D974B7 /* Bai4.swift */,
 				5206F96B19C8829A00D974B7 /* Bai3.swift */,
+				5206F96F19C91E2200D974B7 /* Bai6.swift */,
 			);
 			name = CodeCamp;
 			sourceTree = "<group>";
@@ -515,6 +518,7 @@
 				E27A59F819C2B29400F46EEA /* Student.swift in Sources */,
 				E2AA969419C52F0400968C46 /* DemoFunction.swift in Sources */,
 				E29A182819B0788000FD78A7 /* OptionalUnwrap.swift in Sources */,
+				5206F97019C91E2200D974B7 /* Bai6.swift in Sources */,
 				E27A59F419C2AA7800F46EEA /* ExtendDouble.swift in Sources */,
 				E26B677119C15770004CCEA9 /* ConsoleScreen.swift in Sources */,
 				E2AA969819C5441D00968C46 /* FilterMapReduce.swift in Sources */,

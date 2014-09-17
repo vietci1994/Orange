@@ -10,6 +10,11 @@ import Foundation
 infix operator + {}
 infix operator - {}
 infix operator ** {}
+infix operator /+ {}
+func /+ (c1: Complex, n: Double) -> Complex {
+    return Complex(real: (c1.real)/n, imagine: (c1.imagine)/n)
+}
+
 
 func + (c1: Complex, c2: Complex) -> Complex {
     return Complex(real: c1.real + c2.real, imagine: c1.imagine + c2.imagine)

@@ -21,6 +21,7 @@ class DemoComplex: ConsoleScreen {
         let c3 = c1 + c2
         let c4 = c1 - c2
         let c5 = c1 ** c2
+        let c6 = c1 /+ 2.5
         self.writeln("\(c1.description)\n")
         self.writeln("\(c2.description)\n")
         
